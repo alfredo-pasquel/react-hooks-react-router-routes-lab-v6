@@ -4,6 +4,7 @@ import { render, screen } from "@testing-library/react";
 import routes from "../routes";
 
 const id = 1
+
 const router = createMemoryRouter(routes, {
     initialEntries: [`/movie/${id}`],
     initialIndex: 0
